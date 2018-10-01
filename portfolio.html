@@ -37,13 +37,22 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="#">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125589736-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-125589736-2');
+    </script>
+
 </head>
-	
+
 	<body>
-		
+
 		<!-- Body Wrapper -->
 		<div class="wrapper white">
-		
+
 			<!-- Header Start -->
             <div class="header">
                 <!-- Header Information -->
@@ -215,9 +224,9 @@
                 </div>
             </div>
 			<!-- Header End -->
-			
+
 			<!-- Inner Page Content // Start -->
-			
+
 			<div class="inner-page">
 				<div class="container">
 					<div class="row">
@@ -255,9 +264,9 @@
 
                                     </ul>
 										</p>
-									
+
 										<div id="portfolio">
-											<!-- Add the above used filter names inside div tag. You can add more than one filter names. For image lightbox you need to include "a" tag pointing to image link, along with the class "prettyphoto". -->                        
+											<!-- Add the above used filter names inside div tag. You can add more than one filter names. For image lightbox you need to include "a" tag pointing to image link, along with the class "prettyphoto". -->
 											<div class="element one">
 												<a href="img/portfolio/DeadlineDay.jpeg" class="prettyphoto">
 													<img src="img/portfolio/DeadlineDay.jpeg" alt=""/>
@@ -274,7 +283,7 @@
 													<div class="pcap br-green">
 														<h4>Rugby Radio</h4>
 														<p>Rugby Radio will provide rugby fans with the most comprehensive audio coverage of live games, commentary, podcasts and interviews. For fans, by fans. We are putting the microphone in the hands of true fans. We will merge quality professional commentary with thought provoking interviews and podcasts. Content will include conversations with people from the whole rugby spectrum including professional players, referees and agents.</p>
-													</div>                           
+													</div>
 												</a>
 											</div>
 											<div class="element one">
@@ -283,7 +292,7 @@
 													<div class="pcap br-purple">
 														<h4>My Localpitch</h4>
 														<p>Development in progress <br>Comming soooonn.....</p>
-													</div>                           
+													</div>
 												</a>
 											</div>
                                             <div class="element three">
@@ -324,9 +333,9 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<!-- Inner Page Content // End -->
-			
+
 			<!-- Footer Start -->
             <div class="footer">
                 <div class="container">
@@ -415,16 +424,16 @@
             </div>
 
             <!-- Footer End -->
-			
+
 		</div>
 		<!-- Footer End -->
-		
-		<!-- Scroll to top -->
-		<span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span> 
 
-		
-		
-		
+		<!-- Scroll to top -->
+		<span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span>
+
+
+
+
 		<!-- Javascript files -->
 		<!-- jQuery -->
 		<script src="js/jquery.js"></script>
@@ -434,7 +443,7 @@
 		<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
 		<!-- jQuery flot -->
 		<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
-		<script src="js/jquery.flot.min.js"></script>     
+		<script src="js/jquery.flot.min.js"></script>
 		<script src="js/jquery.flot.resize.min.js"></script>
 		<!-- Count To JS  -->
 		<script src="js/jquery.countTo.js"></script>
@@ -459,13 +468,13 @@
 		<script src="js/custom.js"></script>
 		<!-- This Page JavaScript -->
 		<script type="text/javascript" >
-			
+
 			/* prettyPhoto Gallery */
 
 			jQuery(".prettyphoto").prettyPhoto({
 				overlay_gallery: false, social_tools: false
 			});
-		
+
 			/* Isotype */
 
 			// cache container
@@ -474,15 +483,15 @@
 			$container.isotope({
 				// options...
 			});
-			
+
 			// filter items when filter link is clicked
 			$('#filters a').click(function(){
 			  var selector = $(this).attr('data-filter');
 			  $container.isotope({ filter: selector });
 			  return false;
-			});     
+			});
 
 			// Type your codde here
 		</script>
-	</body>	
+	</body>
 </html>
